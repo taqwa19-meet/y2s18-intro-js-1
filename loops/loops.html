@@ -10,11 +10,23 @@
 
     <script>
 /* STARTING CODE */
+
+var question=(prompt("guess a number"));
+
 function getRandomInt(min, max) {
     return Math.floor(Math.random() * Math.floor(max - min)) + min;
 }
 
 var randomInt = getRandomInt(1, 100);
+if (question>=getRandomInt);
+	document.write(" you guessed too high");
+if (question<=getRandomInt);
+	document.write(" you guessed too low");
+if (question==getRandomInt);
+	document.write(" you guessed correct!");
+
+
+
 /* END STARTING CODE */
 
 // your code goes under here
